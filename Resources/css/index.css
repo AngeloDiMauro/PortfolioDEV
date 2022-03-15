@@ -20,7 +20,7 @@ li {
     float:left;
     margin: 1%;
     background-color: beige;
-    height: 20em;
+    height: 25em;
     /*border: 5px solid darkcyan;
     border-radius: 15px;*/
 }
@@ -80,6 +80,7 @@ a {
 .heading {
     font-size: 24px;
 }
+
 footer {
     /*margin-left: 15px;*/
     display: inline-flex;
