@@ -118,13 +118,6 @@ li:hover {
     transform: scale(1.1);
 }
 
-/*
-.content .feature:hover {
-    transform: scale(1.1);
-    transition: transform 2s ease;
-    animation-fill-mode: forwards;
-}*/
-
 .column3 img {
     display: inline-flex;
     justify-content: space-between;
@@ -154,13 +147,11 @@ li:hover {
     background-color: antiquewhite;
     margin: 10px 10px;
     text-align: center;
-    align-content: center;
     padding: 10px;
 }
 
 .connect a {
     padding: 10px;
-    text-align: center;
 }
 .connect a:hover {
     background-color: lightsalmon;
