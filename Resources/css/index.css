@@ -1,8 +1,11 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*
 body {
     width: 90%;
     margin: 0 auto;
-    text-align: center;
-   }
+}*/
 
 li {
     display: inline;
@@ -12,9 +15,25 @@ li {
     /*border: 3px solid darkcyan;
     border-radius: 5px;*/
     margin-right: 10px;
+    position: relative;
+    top: 10px;
     ;
     
 }
+
+li:hover {
+    background-color: burlywood;
+    border-radius: 5px;
+    transition: background-color .5s ease;
+
+}
+
+.nav {
+    position: relative;
+    top: -100px;
+    
+}
+
 .column1, .column2, .column3 {
     width: 31.3%;
     float:left;
@@ -24,33 +43,77 @@ li {
     /*border: 5px solid darkcyan;
     border-radius: 15px;*/
 }
-#feature {
-    background-color: antiquewhite;
-    margin: 1%;
-    width: 98%;
-    align-content: center;
-    margin: 20px auto;
-    height: 20em;
-    padding-top: 10px;
-    /*border: 5px solid darkcyan;
-    border-radius: 15px;*/
+.content .feature {
+    position: absolute;
+    left: 90px;
+    top: 375px;
+    text-align: center;
+    line-height: 2em;
+    font-size: 20px;
+    z-index: 50;
+    text-shadow: 3px 3px 6px whitesmoke;
+    width: 45%;   
+    margin-left: -10px;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 5px;
+    opacity: 50%;
 }
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.content .feature:hover {
+    opacity: 100%;
+    transform: scale(1.1);
+    transition: opacity .5s ease,
+    transform .5s ease;
 }
-h1, h2 {
-    letter-spacing: 0.2em;
+
+.wechef a img {
+    height: 400px;
+    width: 750px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 7px 7px darkgray;
+    margin-left: 225px;
+    margin-right: 15px;
+    position: relative;
+    left: 450px;
+    opacity: 80%;
+}
+
+.wechef a img:hover {
+    transition: opacity .5s ease,
+    transform .5s ease;
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+/*
+.content .feature:hover {
+    transform: scale(1.1);
+    transition: transform 2s ease;
+    animation-fill-mode: forwards;
+}*/
+
+h1 {
+    letter-spacing: 0.3em;
     font-size: 44px;
     font-weight: 200;
     text-align: left;
     margin-left: 10px;
     background-color: beige;
+    background-size: 25%;
     width: 25%;
-  
+    background-position: center;
 }
 h2 {
     font-size: 22px;
     margin-bottom: 50px;   
+    text-align: left;
+    margin-left: 10px;
+    background-color: antiquewhite;
+    width: 25%;
+    background-position: center;
+    height: 75px;
+    letter-spacing: 0.5em;
 }
 
 a {
@@ -58,37 +121,45 @@ a {
     color: black;
 }
 
-.labels {
-    padding: 10px;
-    margin: 5px;
-    width: 200px;
-}
 .column3 img {
-    height: fit-content;
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    margin-top: 10px;
+    align-content: center;
+    padding: 15px;
+    margin: 0px 5px 10px 35px;
+    box-shadow: 3px 3px 4px 4px darkgray;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .column3 {
-    background-color: whitesmoke;
-    border-radius: 10px;
+    background-color: white;
+    margin: 15px auto;
 }
 
 .heading {
     font-size: 24px;
+    text-align: center;
 }
 
-footer {
-    /*margin-left: 15px;*/
-    display: inline-flex;
+.connect {
+    display: inline-block;
     width: 98%;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    margin: 1%;
-    margin-left: 1%;
+    height: 150px;
     background-color: antiquewhite;
+    margin: 10px 10px;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.connect a {
+    padding: 10px;
+    text-align: center;
+}
+.connect a:hover {
+    background-color: lightsalmon;
+    border-radius: 5px;
+    transition: background-color .5s ease;
 }
