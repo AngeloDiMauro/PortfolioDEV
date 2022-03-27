@@ -65,15 +65,6 @@ li:hover {
     
 }
 
-.column1, .column2, .column3 {
-    width: 31.3%;
-    float:left;
-    margin: 1%;
-    background-color: beige;
-    height: 25em;
-    /*border: 5px solid darkcyan;
-    border-radius: 15px;*/
-}
 .content .feature {
     position: absolute;
     left: 90px;
@@ -116,6 +107,16 @@ li:hover {
     transform .5s ease;
     opacity: 100%;
     transform: scale(1.1);
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float:left;
+    margin: 1%;
+    background-color: beige;
+    height: 25em;
+    /*border: 5px solid darkcyan;
+    border-radius: 15px;*/
 }
 
 .column3 img {
