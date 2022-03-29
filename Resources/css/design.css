@@ -40,7 +40,7 @@ a {
 .square1, .square2, .square3 {
     width: 25%;
     height: 18rem;
-    float: left;
+    display: inline-block;
     background-color: blanchedalmond;
     margin: 4%;
 }
@@ -48,10 +48,41 @@ a {
 .square4, .square5, .square6 {
     width: 25%;
     height: 18rem;
-    float: left;
+    display: inline-block;
     background-color: burlywood;
     margin: 4%;
 }
-.heading {
-    text-align: center;
+
+.square1 a img {
+    width: 100%;
+    height: 28rem;
+    opacity: 95%;
+    margin-top: -20px;
+    border: 1px solid gainsboro;
+    z-index: 1;
+}
+
+.square1 a img:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+    transition: transform .5s ease,
+    opacity .5s ease;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px 4px darkgray;
+}
+
+.square2 a img {
+    width: 100%;
+    height: 28rem;
+    opacity: 95%;
+    margin-top: -20px;
+}
+
+.square2 a img:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+    transition: transform .5s ease,
+    opacity .5s ease;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px 4px darkgray;
 }
