@@ -10,6 +10,7 @@ h1 {
     margin-left: 10px;
     background-color: beige;
     width: 250px;
+    display: inline-block;
 }
 
 h1:hover {
@@ -21,20 +22,20 @@ h1:hover {
 
 h2 {
     font-size: 22px;
+    margin-top: .1rem;
     margin-bottom: 50px;   
     text-align: left;
     margin-left: 10px;
     background-color: antiquewhite;
     width: 250px;
-    background-position: center;
     height: 75px;
     letter-spacing: 0.5em;
+    display: block;
 }
 
 a {
     text-decoration: none;
     color: black;
-    max-width: 250px;
 }
 
 li {
@@ -42,13 +43,9 @@ li {
     padding: 15px;
     background-color: beige;
     float: right;
-    /*border: 3px solid darkcyan;
-    border-radius: 5px;*/
     margin-right: 10px;
     position: relative;
-    top: 10px;
-    ;
-    
+    top: 10px;   
 }
 
 li:hover {

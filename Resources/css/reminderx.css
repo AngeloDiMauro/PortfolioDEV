@@ -1,0 +1,6 @@
+.content img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid salmon;
+}
