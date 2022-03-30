@@ -57,3 +57,12 @@ span {
     margin: auto;
     font-size: 1.5rem;
 }
+
+span a:hover {
+    background-color: salmon;
+    font-size: 110%;
+    border-radius: 5px;
+    padding: 3px;
+    transition: transform .5s ease,
+    font-size .5s ease;
+}
