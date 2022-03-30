@@ -3,3 +3,8 @@
     margin: 0 auto;
     display: block;
 }
+
+#page2 {
+    width: 90.8%;
+    z-index: 50;
+}
